@@ -25,7 +25,7 @@
                 <div class="col-lg-12">
                     <div class="header-style-one-wrapper">
                         <div class="logo-area">
-                            <a href="index.html" class="logo">
+                            <a href="/" class="logo">
                                 <img src="{{ asset('assetsland/images/logo-1.svg') }}" alt="logo">
                             </a>
                         </div>
@@ -43,7 +43,8 @@
                             </ul>
                         </nav>
                         <div class="button-area-start">
-                            <a href="themeforest.net/item/geex-bootstrap5-admin-dashboard-html-template/50415081d41d.html?" target="_blank" class="rts-btn btn-primary"><i class="fa-regular fa-cart-shopping"></i> Purchase</a>
+                            <a href="{{ route('login') }}" target="_blank-" class="rts-btn btn-primary gap-2"><i class="fa-regular fa-user-circle fa-2x- align-middle mx-1"></i> Se Connecter</a>
+                            {{-- <a href="themeforest.net/item/geex-bootstrap5-admin-dashboard-html-template/50415081d41d.html?" target="_blank" class="rts-btn btn-primary"><i class="fa-regular fa-cart-shopping"></i> Purchase</a> --}}
                         </div>
                     </div>
                 </div>
@@ -484,7 +485,6 @@
     <script defer src="{{ asset('assetsland/js/vendor/split-text.js') }}"></script>
     <script defer src="{{ asset('assetsland/js/vendor/split-type.js') }}"></script>
     <script defer src="{{ asset('assetsland/js/main.js') }}"></script>
-
 
 </body>
 
